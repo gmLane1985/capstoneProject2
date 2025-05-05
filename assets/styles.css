@@ -1,0 +1,59 @@
+/*fonts
+    font-family: "Alegreya", serif;
+    font-family: "Space Grotesk", sans-serif;
+  }
+*/
+* {
+  font-family: 'Alegreya', serif !important;
+}
+
+.H1,
+.H2 {
+  color: #004aad !important;
+  font-family: Alegreya, Helvetica, serif;
+  font-style: italic;
+}
+
+.H5 {
+  font-family: 'Space Grotesk', sans-serif !important;
+  color: black !important;
+}
+
+.nav-link {
+  background-color: white;
+  color: #004aad !important;
+  font-family: 'Alegreya', serif;
+}
+
+.nav-link:hover {
+  background-color: #004aad;
+  color: white !important;
+}
+
+#logo {
+  border-radius: 25%;
+}
+.navbar {
+  background-color: white !important;
+}
+
+hr {
+  width: 75%;
+  margin: 2rem auto;
+  border: 1px solid #ccc;
+}
+
+#codingFF {
+  border-radius: 50%;
+}
+
+#contactButton {
+  background-color: white;
+  color: #004aad !important;
+  font-family: 'Alegreya', serif;
+}
+
+#contactButton:hover {
+  background-color: #004aad;
+  color: white !important;
+}
