@@ -32,7 +32,10 @@
 
 }
 .navbar {
-  background-color: white !important;
+  position: sticky;
+  top: 0;
+  z-index: 1030; /* Ensures the navbar stays above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
 }
 
 hr {
