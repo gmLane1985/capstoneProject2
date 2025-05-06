@@ -30,6 +30,9 @@
   color: white !important;
 }
 
+#logo {
+  border-radius: 25%;
+}
 .navbar {
   background-color: white !important;
 }
@@ -38,6 +41,10 @@ hr {
   width: 75%;
   margin: 2rem auto;
   border: 1px solid #ccc;
+}
+
+#codingFF {
+  border-radius: 50%;
 }
 
 #contactButton {
