@@ -30,9 +30,6 @@
   color: white !important;
 }
 
-#logo {
-  border-radius: 25%;
-}
 .navbar {
   background-color: white !important;
 }
@@ -52,4 +49,37 @@ hr {
 #contactButton:hover {
   background-color: #004aad;
   color: white !important;
+}
+
+\/* Logo Container */
+.logo-container {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+/* Default Logo */
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.75s ease-in-out;
+}
+
+/* Hover Logo*/
+.hover-logo {
+  opacity: 0;
+}
+
+/* Show Hover Logo on Hover */
+.logo-container:hover .hover-logo {
+  opacity: 1;
+}
+
+.logo-container:hover .default-logo {
+  opacity: 0;
 }
